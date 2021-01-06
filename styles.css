@@ -6,7 +6,7 @@
 	padding: 10px 10px 0px 10px;
 }
 body {
-	background-color: #fafbfc;
+	background-color: #edf2fb;
 	font-family: 'Roboto', sans-serif;
 	display: flex;
   justify-content: center;
@@ -66,6 +66,8 @@ h5 {
 	border-radius: 6px;
 	border-color: rgba(27,31,35,0.15);
 
+	text-decoration: none;
+	color:black;
 
 }
 
@@ -77,12 +79,12 @@ h5 {
 .sidebar {
 	width: 250px;
 	background-color: #0366d6;
-
+	border: 1px solid #1d3557;
 }
 
 .profile-picture {
 	width: 190px;
-	border-radius: 100px;
+	border-radius: 10px;
 }
 
 .name {
@@ -114,6 +116,8 @@ img {
 	color: white;
 	cursor: pointer;
 	margin-left: 10px;
-	text-decoration: none;
+}
 
+ul {
+	color:#2f363d;
 }
