@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-	padding: 10px;
+	padding: 20px;
 	background-color: white;
   box-shadow: 0 3px 6px rgba(149,157,165,0.15) !important;
 }
@@ -78,7 +78,7 @@ h5 {
 
 .sidebar {
 	width: 250px;
-	background-color: #0366d6;
+	background-color: #023047;
 	border: 1px solid #1d3557;
 }
 
