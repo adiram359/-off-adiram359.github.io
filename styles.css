@@ -19,18 +19,15 @@ body {
   box-shadow: 0 3px 6px rgba(149,157,165,0.15) !important;
 }
 
-ul {
+.no-margin {
 	margin: 0px;
-	/* border: 1px solid black; */
 }
+
 h2 {
 	margin: 0px;
 	font-size: 30px;
 }
-h3 {
-	margin: 0px;
 
-}
 h4 {
 	margin: 0px;
 	color: #264653;
@@ -110,9 +107,7 @@ img {
 }
 
 .link {
-	vertical-align: middle
-	color: white;
-	text-decoration: dotted;
+	vertical-align: middle;
 	color: white;
 	cursor: pointer;
 	margin-left: 10px;
