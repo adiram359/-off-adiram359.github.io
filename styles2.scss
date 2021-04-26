@@ -1,0 +1,77 @@
+:root {
+	--btn-fill: rgba(100, 149, 237, 0.5);
+	--btn-outline: rgba(100, 149, 237, 0.9);
+	--btn-hover-fill: rgba(100, 149, 237, 1);
+	--svg-fill: rgb(46, 64, 83);
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	width: 700px; /* Can be in percentage also. */
+   	height: auto;
+   	margin: 0 auto;
+
+}
+
+
+
+svg {
+	fill: var(--svg-fill);
+
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+	width: 280px;
+	margin: 20px 210px 10px 210px;
+}
+
+.main-container {
+	// border: 1px solid;
+	text-align: center;
+}
+
+h1, h2 {
+	margin:20px 0px 0px 0px;
+}
+
+
+
+
+.b {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	width: 50px;
+	height: 30px;
+	background-color: var(--btn-fill);
+	border: 3px solid --var(--btn-outline);
+	// margin: 5px 15px 5px 5px;
+	cursor: pointer;}
+
+.b:hover{
+	border: 1px solid var(--btn-hover-fill);
+
+}
+
+.x {
+	text-align:left;
+	font-size: 14px;
+	margin-left: 50px; margin-right: 50px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 2px;
+	border: 1px solid rgba(46, 64, 83, 0.5);
+	color: var(--svg-fill);
+}
+
+a {
+	color: rgba(100, 149, 237, 1);
+}
+
+.bulletpoint {
+	margin-left: 20px;
+}

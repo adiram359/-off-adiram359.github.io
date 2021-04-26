@@ -1,11 +1,18 @@
 :root {
-	--green1: rgba(107, 219, 158, 1);
-	--green2: #229d8f;
+	--link-color: rgba(107, 219, 158, 1);
+	--sub-heading: #229d8f;
+	--sub-heading: #2ca58d;
 	--container-background: white;
-	--background: white;
 	--text-color: black;
-	--purple1: #b8b5ff;
-	--background: #edf2fb
+	--button-color: #b8b5ff;
+	--sub-heading: #7868e6;
+	--background: #edf2fb;
+
+	/* */
+	--sub-heading: #5ba8ec;
+
+
+
 }
 
 .job {
@@ -21,6 +28,7 @@ body {
 	color: var(--text-color);
 	background-color: var(--background);
 	font-family: 'Roboto', sans-serif;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -28,6 +36,7 @@ body {
 
 .main-container {
 	display: flex;
+	border: 1px solid #ced4da;
 }
 
 .container {
@@ -59,13 +68,18 @@ h4 {
 
 h5 {
 	margin: 0px;
-	color: var(--green2);
 	font-size: 14px;
 }
 
 .button-container {
 	padding-top: 5px;
 	display: flex;
+}
+
+.button-container a {
+	margin-right: 5px;
+	color: black;
+	box-shadow: 0 3px 6px rgba(149, 157, 165, 0.15) !important;
 }
 
 .project-buttons {
@@ -75,11 +89,11 @@ h5 {
 	font-weight: 600;
 	line-height: 20px;
 	vertical-align: middle;
-	border-radius: 6px;
+	border-radius:4px;
 	text-decoration: none;
 	color: black !important;
-	border: solid 1px var(--purple1);
-	background-color: var(--purple1);
+	border: solid 1px black;
+	background-color: var(--button-color);
 }
 
 .project-buttons:hover {
@@ -97,7 +111,7 @@ h5 {
 
 .profile-picture {
 	width: 190px;
-	border-radius: 10px;
+	border-radius: 0px;
 }
 
 .links {
@@ -117,19 +131,37 @@ img {
 
 .sidebar a {
 	margin-left: 10px;
-	color: var(--green1);
+	color: white;
+
+	/* color: white; */
 	vertical-align: middle;
+
 }
 
-.job a {
 
-	color: black;
-	text-decoration-color: var(--green1);
-	text-decoration-thickness: 2px;
+
+.job a {
+	padding: 2px 4px 2px 4px;
+	border: 1px solid #1e96fc;
+	font-weight: 600;
+	cursor: pointer;
+	text-decoration: underline;
+
+	border-radius: 3px;
+	background-color: #ffd500;
+	background-color: #ffdd00;
+	background-color: #ffe14c;
+
+	background-color: #a2d6f9;
+	box-shadow: 0 3px 6px rgba(149, 157, 165, 0.15) !important;
+
+	text-decoration: none;
 }
 
 .job a:hover {
 
-	color: var(--green1);
-	transition: 0.1s;
+	background-color: white;
+	box-shadow: 0 3px 6px rgba(149, 157, 165, 0.15) !important;
+	/* color: var(--link-color); */
+	transition: 0.2s;
 }
