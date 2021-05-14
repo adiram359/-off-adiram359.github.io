@@ -74,3 +74,8 @@ a {
 .bulletpoint {
 	margin-left: 20px;
 }
+
+.spread {
+	display: flex;
+	justify-content: space-between;
+}
