@@ -28,7 +28,6 @@ svg {
 }
 
 .main-container {
-	// border: 1px solid;
 	text-align: center;
 }
 
@@ -49,7 +48,7 @@ h1 { font-size: 40px }
 	height: 30px;
 	background-color: var(--btn-fill);
 	border: 3px solid --var(--btn-outline);
-	// margin: 5px 15px 5px 5px;
+	/* margin: 5px 15px 5px 5px; */
 	cursor: pointer;}
 
 .b:hover{
