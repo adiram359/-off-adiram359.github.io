@@ -68,7 +68,23 @@ h1 { font-size: 40px }
 }
 
 a {
+    text-decoration: none;
 	color: rgba(100, 149, 237, 1);
+    /* border-width: 1px; */
+    background-color: gray;
+    padding: 2px 5px 2px 5px;
+    border-radius: 2px;
+    /* border-color: black; */
+
+    /* display: block; */
+    /* color: rgba(85,102,119,.5); */
+    font-weight: 400;
+    line-height: 1.5em;
+    padding: 2px 8px;
+    border-radius: 3px;
+    background: rgba(241,243,245,1);
+    box-shadow: 0 1px 1px rgba(85,102,119,.25);
+
 }
 
 .bulletpoint {
